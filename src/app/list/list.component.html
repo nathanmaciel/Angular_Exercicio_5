@@ -1,0 +1,9 @@
+
+<div class="line" (mouseenter)="hoverIt=true" (mouseleave)="hoverIt=false">
+    <div class="text">
+        <p >{{toDoItem}}</p>
+    </div>
+    <button *ngIf="hoverIt"  mat-flat-button color="warn" (click)="deletef()"><mat-icon aria-hidden="false" aria-label="Example home icon">delete</mat-icon></button>
+</div>
+<!-- (mouseover)="hoverIt=true" (mouseout)="hoverIt=false" -->
+<!-- *ngIf="hoverIt"  -->

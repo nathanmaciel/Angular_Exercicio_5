@@ -1,0 +1,27 @@
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;   
+    width: clamp(250px, 30vw, 500px);
+}
+.text{
+    min-height: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+.mat-raised-button{
+    background-color: rgb(142,74,233);
+    color: white;
+    padding: 10px;
+    font-size: 100%;
+    font-weight: 500;
+    min-height: 20px;
+    max-height: 40px;
+    min-width: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.line{
+    display: flex;
+    min-height: 30px;
+    width: clamp(250px, 30vw, 500px);
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 6px;
+    margin-bottom: 10px;   
+    box-sizing: border-box;
+}
+.text{
+    min-height: 100%;
+    flex-grow: 1;
+}
+p{
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.mat-flat-button{
+    min-height: 100%;
+    border-radius: 0px 4px 4px 0;
+}
+.space{
+    height: 5px;
+}

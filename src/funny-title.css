@@ -1,0 +1,13 @@
+.class1{
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.class1:hover{
+    transform: scale(1.2);
+}
